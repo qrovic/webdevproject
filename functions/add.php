@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        include_once("../dbConnection/mysqliconfig_connection.php");
+        include_once("../dbConnections/mysqlconfig_connection.php");
 
         if(isset($_POST['Submit'])){ 
             $code = $_POST['code']; 
@@ -28,8 +28,7 @@
                 $result = mysqli_query($dbc, "INSERT INTO tblsubjects(subject_code, subject_name) VALUES ('$code','$name')");
                 echo "<font color='green'> Data added successfully.</font>";
                 echo "<br/><a href='../index.php'>View Results</a>";
-            }
-            mysqli_close($dbc); 
+            }  
         }
     ?>
 </body>
