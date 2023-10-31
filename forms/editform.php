@@ -31,8 +31,8 @@
                 <td><input type="text" name="name" value="<?php echo $name;?>"></td>
             </tr>
             <tr>
-                <td><input type="hidden" name="name" value="<?php echo $_GET['id'];?>"></td>
-                <td><input type="submit" name="submit" value="Add"></td>
+                <td><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"></td>
+                <td><input type="submit" name="update" value="update"></td>
             </tr>
         </table>
     </form>
