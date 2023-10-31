@@ -24,7 +24,7 @@
             } else {
                 echo "<font color='red'> Error: " . mysqli_error($dbc) . "</font>";
             }
-            mysqli_close($dbc); // Close the database connection here
+    
         }
     }
 ?>
