@@ -1,6 +1,6 @@
 <?php
-    include_once("dbConnection/mysqlconfig_connection.php");
-    include_once("../functions/fetch.php");
+    include_once("dbConnections/mysqlconfig_connection.php");
+    include_once("functions/fetch.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
